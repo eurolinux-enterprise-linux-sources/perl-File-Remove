@@ -1,6 +1,6 @@
 Name:           perl-File-Remove
 Version:        1.52
-Release:        5.1%{?dist}
+Release:        6%{?dist}
 Summary:        Convenience module for removing files and directories
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -49,6 +49,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.52-6
+- Mass rebuild 2013-12-27
+
 * Mon Jul 22 2013 Petr Šabata <contyk@redhat.com> - 1.52-5.1
 - Correct the build-time dependency list
 - Add a fullstop to description
